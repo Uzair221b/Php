@@ -11,16 +11,16 @@
     <body style="background-color:#3e404a;">
         <h2>Divergent</h2>
         <?php
-        $sm = "Divergent"; //variables Types
+        $sm = "Divergent"; //variables Types;
         $uz = "86";
         $fl = "86.6";
-        $sum = $uz + $fl;
-        echo "Addition of two var$sum <br>"; //Addition of two var
+        $sum = $uz + $fl; //Addition of two var;
+        echo "Addition of two var$sum <br>"; //Addition of two var;
         echo "  Tri";
         print "<br> Samrat";
         print " <br> hello <br/>";
-        echo $sm . $uz;     //two var concate
-        echo $sm .= $uz;       //two var concate
+        echo $sm . $uz;     //two var concate;
+        echo $sm .= $uz;       //two var concate;
 
         print " <br> Integer:$uz";
         print "<br> Float: $fl <br/><br/>";
@@ -58,7 +58,7 @@
         ?>
 
 
-        <?php   //Simple if example
+        <?php   //Simple if example;
         $num = "-20";
         if ($num > "0") {
             echo "<br> Number is positive $num <br/>";
@@ -81,7 +81,7 @@
         }
         ?>
 
-        <?php   // switch case // page- 25 //  assignment 
+        <?php   // switch case // page- 25 //  assignment; 
         $switch = 'B';
         switch ($switch) {
             case 'a';
