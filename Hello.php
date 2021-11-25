@@ -81,7 +81,7 @@
         }
         ?>
 
-        <?php   // switch case // page- 25 //  assignment; 
+        <?php   // switch case // page- 25 // 2 assignment; 
         $switch = 'B';
         switch ($switch) {
             case 'a';
@@ -143,24 +143,25 @@
                 echo "Enter a valid operator";
         }
         ?>
-<?php       //conditional operatopr // page-25 // 1 assignment;
-    $a="20";
-    $b="30";
+        <?php   //conditional operatopr // largest among two // page-25 // 1 assignment;
+        $a = "20";
+        $b = "30";
 
-    $big=($a>$b)? $a: $b;
-    echo "<br><br><br> Largest no is $big";
+        $big = ($a > $b) ? $a : $b;
+        echo "<br><br><br> Largest no is $big";
 
-?>
+        ?>
 
-<?php    //conditional operatopr // largest among three // page-25 // 2 assignment;
-   $a="20";
-   $b="30";
-   $c="60";
+        <?php    //conditional operatopr // largest among three // page-25 // 2 assignment;
+        $a = "20";
+        $b = "30";
+        $c = "60";
 
-   $large=($a>$b)?(($a>$c)? $a: $c): (($b>$c)? $b: $c);
-   echo "<br><br><br> Largest no is $large <br/>";
+        $large = ($a > $b) ? (($a > $c) ? $a : $c) : (($b > $c) ? $b : $c);
+        echo "<br><br><br> Largest no is $large <br/>";
 
-?>
+        ?>
+        
     </body>
     </head>
 

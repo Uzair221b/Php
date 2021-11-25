@@ -1,6 +1,6 @@
 <?php
 $car=array("volvo","BMW","Challenger","Masarati","Camero2SS");
-echo "I like".$car[4]."and". $car[2];
+echo "I like"."&nbsp;".$car[4]."&nbsp;"."and" ."&nbsp;". $car[2];
 ?>
 
 
@@ -12,4 +12,5 @@ $cars[2]="Shaista";
 $cars[3]="Ram";
 $cars[4]="Hritika";
 $cars[5]="Z";
-echo "My classmate".$cars[5];
+echo "<br>My classmate"."&nbsp;".$cars[5];
+?>

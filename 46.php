@@ -1,5 +1,5 @@
 <?php
-echo "Your User Email is".$_POST["name"];
-echo "</br>";
-echo "Your Password is".$_POST["pass"];
+echo "Your User Email is"."&nbsp;&nbsp;&nbsp;".$_POST["name"];
+echo "<br>";
+echo "Your Password is"."&nbsp;&nbsp;&nbsp;".$_POST["pass"];
 ?>

@@ -21,5 +21,8 @@ for ($x=0; $x < $arrlenth; $x++) {
     echo "<BR>$_SERVER[REMOTE_ADDR]<BR>";
     echo "<BR>$_SERVER[REMOTE_PORT]<BR>";
     echo "<BR>$_SERVER[SERVER_ADMIN]<BR>";
+    echo "<pre>";
+    print_r($_SERVER);
+    echo "</pre>";
 }
 ?>

@@ -1,5 +1,5 @@
 <?php  
-function fact ($n)  
+function fact($n)  
 {  
     if($n <= 1)   
     {  
